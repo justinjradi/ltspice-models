@@ -1,0 +1,6 @@
+.subckt potentiometer t1 t2 wiper
+R1 wiper t1 {displacement * total}
+R2 t2 wiper {(1 - displacement) * total}
+.backanno
+.ends potentiometer
+.end

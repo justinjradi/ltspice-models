@@ -1,0 +1,26 @@
+Version 4
+SymbolType CELL
+LINE Normal 16 16 40 20
+LINE Normal 16 16 40 12
+LINE Normal 40 20 40 12
+LINE Normal 0 48 8 48
+LINE Normal 8 80 8 16
+LINE Normal 48 96 48 80
+LINE Normal 16 16 16 80
+LINE Normal 40 16 48 16
+LINE Normal 48 0 48 16
+LINE Normal 48 80 16 80
+WINDOW 0 56 32 Left 2
+WINDOW 3 56 72 Left 2
+SYMATTR Value PMOS
+SYMATTR Prefix MP
+SYMATTR Description P-Channel MOSFET transistor
+PIN 48 96 NONE 0
+PINATTR PinName D
+PINATTR SpiceOrder 1
+PIN 0 48 NONE 0
+PINATTR PinName G
+PINATTR SpiceOrder 2
+PIN 48 0 NONE 0
+PINATTR PinName S
+PINATTR SpiceOrder 3
